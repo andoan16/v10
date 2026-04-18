@@ -24,12 +24,12 @@ export default function HTMLUsageCodeBlock() {
       {result.js && (
         <TabsRoot maxWidth={false}>
           <TabsList label="HTML implementation">
-            <Tab value="javascript" initial>
-              JavaScript
+            <Tab value="typescript" initial>
+              TypeScript
             </Tab>
           </TabsList>
-          <TabsPanel value="javascript" initial>
-            <ClientCode code={result.js} lang="javascript" />
+          <TabsPanel value="typescript" initial>
+            <ClientCode code={result.js} lang="typescript" />
           </TabsPanel>
         </TabsRoot>
       )}
